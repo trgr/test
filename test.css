@@ -1,3 +1,7 @@
 #listing_title {
 		display : none;
 }
+
+label[for=listing_title]{
+		display : none;
+}
