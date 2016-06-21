@@ -15,4 +15,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 	desc.style.display = "none";
 	
-}
+});
