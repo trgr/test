@@ -5,3 +5,7 @@
 label[for=listing_title]{
 		display : none;
 }
+
+#info-text-container{
+		display : none;
+}
