@@ -3,8 +3,8 @@ $( window ).load(function()		{
 	var f = document.getElementById("new-listing-link");
 	f.innerHTML = "Selg gavekort";
                                         
-	var title = document.getElementById( "listing_title" )
-	title.style.display = "none";
+//	var title = document.getElementById( "listing_title" )
+//	title.style.display = "none";
 
 	$('label[for="listing_title"]').hide ();
 	
