@@ -10,5 +10,7 @@ $( window ).load(function()		{
 	$('label[for="listing_description"]').hide ();
 
 	$("#listing_description").hide();	
-	
+	$("#new_listing").delegate( "custom_fields_25495" , "change" , function(){
+		console.log( "hellzyas" );
+	})
 });
