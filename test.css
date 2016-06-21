@@ -16,7 +16,9 @@ label[for=listing_title]{
 }
 
 
-
+.fluid-thumbnail-grid-image-title{
+		display:none;
+}
 
 
 
