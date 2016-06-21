@@ -1,4 +1,5 @@
-document.addEventListener("DOMContentLoaded", function(event) { 
+$( document ).ready(function() {
+		
 	var f = document.getElementById("new-listing-link");
 	f.innerHTML = "Selg gavekort";
                                         
@@ -8,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	$('label[for="listing_title"]').hide ();
 	
 	var info = document.getElementById( "info-text-container" );
-		$('label[for="listing_description"]').hide ();
+	$('label[for="listing_description"]').hide ();
 	info.style.display = "none";
 	
 	var desc = document.getElementById( "listing_description" );
